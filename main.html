@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PicLoad</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+ 	<link rel="stylesheet" href="style.css">
+ 	<script type="text/javascript">window.onbeforeunload=function(){}</script>
+ 	
+
+
+</head>
+<body>
+
+<div class="xcontainer container">
+
+	<div class="logins col-md-6">
+	<h1>PiCLoad</h1>
+	<div class="elements form-group">
+
+		<form id="login" action="login.php" method="POST">
+			<table role="presentation">
+			
+				<tr>
+				<td><input name="user" type="input" class="texxt form-control"  placeholder="Username"></td>
+				<td><input name="pass" class="texxt form-control"  placeholder="Password" type="password"></td>
+				<td><input class="buts log-but btn btn-default" type="submit" value="Log In"></td>
+				<td><input class="buts sign-but btn btn-default" type="button" value="Sign up&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"></td>
+				 
+				</tr>
+			
+			</table>
+		</form>
+	</div>
+	</div>
+	
+	<button name="push-back" class="push-back" >&#60;</button>
+	
+	<div class="col-md-6">
+	<div class="form-group">
+	<form id="signup" method="POST" action="signup.php">
+		<table class="sign-up-tab">
+			<tr>
+				<td><input name="nuser" type="input" class="texxt form-control"  placeholder="Type a username"></td>
+				<td><input name="npass" class="texxt form-control"  placeholder="Choose a password" type="password"></td>
+				<td><input name="ncpass" class="texxt form-control"  placeholder="Confirm password" type="password"></td>
+				<td><input class="buts log-but btn btn-default" type="submit" value="Sign up" onclick="clickedoye();"></td>
+			</tr>
+		</table>
+	</form>
+	</div>
+	<p class="para">PiCLoad lets you upload your photos and store it on our cloud, safely!</p>
+	
+	</div>
+
+
+
+<script src="jquery-1.11.2.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript">var clickedoye=function(){var p1=npass.value; var p2=ncpass.value; if(p1!=p2){window.location(main.html);}}</script>
+</body>
+</html>

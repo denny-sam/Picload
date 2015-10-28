@@ -1,0 +1,162 @@
+body{
+	margin: 0px;
+	width: 100%;
+
+}
+
+h1{
+	font-size: 100px;
+	font-family: cooper std;
+	font-weight: bolder;
+	color: white;
+}
+.xcontainer{
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+
+
+}
+
+.htitle{
+
+	position: relative;
+	height: 100%;
+	width:60%;
+	float: right;
+	background-color: #575758;
+
+}
+
+.logins{
+	position: relative;
+	height: 100%;
+	width:40%;
+	float: left;
+	background-color: #81c262;
+}
+
+.elements{
+
+	position: relative;
+	width:100%;
+	height: 30%;
+	left:0%;
+	top:23%;
+
+	right: 5%;
+}
+
+td{
+	display: block;
+}
+
+.texxt{
+	height: 50px;
+	width: 400px;
+	margin: 10px 30px;
+	border-radius: 7px;
+
+}
+.text:focus{
+	box-shadow: 0 0 5px #81c262;
+
+}
+
+.buts{
+	position: relative;
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	height: 60px;
+
+	border: 0px;
+	padding: 0px;
+	font-size: 30px;
+	font-family: AR CENA;
+	letter-spacing: 2px;
+	color: #fff;
+	border-radius: 6px;
+}
+
+.log-but{
+	background: #007acb;
+}
+.sign-but{
+	background:#56c647;
+	position:absolute;
+	bottom:-120px;
+	width: 105%;
+	left: -167px;
+	border-radius: 0px;
+
+}
+.sign-but:hover,.sign-but:active,.sign-but:focus{
+	background:#51af44;
+	color:white;
+}
+
+.log-but:hover,.log-but:active,.log-but:focus{
+	background:#0367aa;
+	color:white;
+}
+
+.para{
+	color: #439957;
+	position: relative;
+	background-color: #fff;
+
+	margin: 22% 3%;
+	left: 10%;
+	font-family: Segoe UI;
+	font-size: 60px;
+	font-weight: lighter;
+
+
+	line-height: 80px;
+	padding: 5px;
+	letter-spacing: 2px;
+	text-align: center;
+	z-index: 20;
+
+}
+
+.sign-up-tab{
+	display: block;
+	position: absolute;
+	margin: 25% 7%;
+	left: 10%;
+
+	padding: 20px;
+	border-radius: 10px;
+	z-index: 100;
+	height:300px;
+	width:500px;
+	background-color: #81c262;
+	vertical-align: middle;
+
+}
+
+.push-back,.push-back:hover{
+	position: absolute;display: block;
+	background: #248532;
+	border:1px solid #1b5f25;
+	top:60%;
+	left:20%;
+	border-radius: 30px;
+	height: 60px;
+	width: 60px;
+	color:white;
+	font-family: AR DESTINE;
+	font-size: 20px;
+	font-weight: bolder;
+	cursor: pointer;
+	z-index: 9;
+	opacity: 0;
+	
+}
+{
+
+}
